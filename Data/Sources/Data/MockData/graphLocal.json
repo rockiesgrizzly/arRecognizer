@@ -1,0 +1,21 @@
+{
+  "thermostat-001": {
+    "name": "Living Room Thermostat",
+    "status": "Online",
+    "temperature": 71.5,
+    "set_point": 72.0,
+    "unit": "°F"
+  },
+  "fan-001": {
+    "name": "Main VAV Unit",
+    "status": "Warning",
+    "fan_speed_rpm": 2800,
+    "flow_cfm": 350
+  },
+  "light-001": {
+    "name": "Office Light",
+    "status": "Offline",
+    "power_watts": 0,
+    "dim_level_pct": 80
+  }
+}

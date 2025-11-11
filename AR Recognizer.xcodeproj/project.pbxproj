@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436233772EC3ECBC00880100 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 436233762EC3ECBC00880100 /* Presentation */; };
+		4362337B2EC3ED2500880100 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 4362337A2EC3ED2500880100 /* Data */; };
+		4362337E2EC3ED4700880100 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 4362337D2EC3ED4700880100 /* Domain */; };
+		43F435632EC3EAF900273482 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 43F435622EC3EAF900273482 /* Presentation */; };
+		43F435672EC3EB3C00273482 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 43F435662EC3EB3C00273482 /* Domain */; };
+		43F4356A2EC3EB7100273482 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 43F435692EC3EB7100273482 /* Data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F435362EC3EA3C00273482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F435202EC3EA3800273482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F435272EC3EA3800273482;
+			remoteInfo = "AR Recognizer";
+		};
+		43F435402EC3EA3C00273482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F435202EC3EA3800273482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F435272EC3EA3800273482;
+			remoteInfo = "AR Recognizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43F435282EC3EA3800273482 /* AR Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F435352EC3EA3C00273482 /* AR RecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR RecognizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F4353F2EC3EA3C00273482 /* AR RecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR RecognizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		43F4352A2EC3EA3800273482 /* AR Recognizer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AR Recognizer";
+			sourceTree = "<group>";
+		};
+		43F435382EC3EA3C00273482 /* AR RecognizerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AR RecognizerTests";
+			sourceTree = "<group>";
+		};
+		43F435422EC3EA3C00273482 /* AR RecognizerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AR RecognizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F435252EC3EA3800273482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4362337E2EC3ED4700880100 /* Domain in Frameworks */,
+				436233772EC3ECBC00880100 /* Presentation in Frameworks */,
+				43F435672EC3EB3C00273482 /* Domain in Frameworks */,
+				4362337B2EC3ED2500880100 /* Data in Frameworks */,
+				43F435632EC3EAF900273482 /* Presentation in Frameworks */,
+				43F4356A2EC3EB7100273482 /* Data in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F435322EC3EA3C00273482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4353C2EC3EA3C00273482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F4351F2EC3EA3800273482 = {
+			isa = PBXGroup;
+			children = (
+				43F4352A2EC3EA3800273482 /* AR Recognizer */,
+				43F435382EC3EA3C00273482 /* AR RecognizerTests */,
+				43F435422EC3EA3C00273482 /* AR RecognizerUITests */,
+				43F435292EC3EA3800273482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F435292EC3EA3800273482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F435282EC3EA3800273482 /* AR Recognizer.app */,
+				43F435352EC3EA3C00273482 /* AR RecognizerTests.xctest */,
+				43F4353F2EC3EA3C00273482 /* AR RecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F435272EC3EA3800273482 /* AR Recognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F435492EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR Recognizer" */;
+			buildPhases = (
+				43F435242EC3EA3800273482 /* Sources */,
+				43F435252EC3EA3800273482 /* Frameworks */,
+				43F435262EC3EA3800273482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				43F4352A2EC3EA3800273482 /* AR Recognizer */,
+			);
+			name = "AR Recognizer";
+			packageProductDependencies = (
+				43F435622EC3EAF900273482 /* Presentation */,
+				43F435662EC3EB3C00273482 /* Domain */,
+				43F435692EC3EB7100273482 /* Data */,
+				436233762EC3ECBC00880100 /* Presentation */,
+				4362337A2EC3ED2500880100 /* Data */,
+				4362337D2EC3ED4700880100 /* Domain */,
+			);
+			productName = "AR Recognizer";
+			productReference = 43F435282EC3EA3800273482 /* AR Recognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F435342EC3EA3C00273482 /* AR RecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F4354C2EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR RecognizerTests" */;
+			buildPhases = (
+				43F435312EC3EA3C00273482 /* Sources */,
+				43F435322EC3EA3C00273482 /* Frameworks */,
+				43F435332EC3EA3C00273482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F435372EC3EA3C00273482 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				43F435382EC3EA3C00273482 /* AR RecognizerTests */,
+			);
+			name = "AR RecognizerTests";
+			packageProductDependencies = (
+			);
+			productName = "AR RecognizerTests";
+			productReference = 43F435352EC3EA3C00273482 /* AR RecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43F4353E2EC3EA3C00273482 /* AR RecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F4354F2EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR RecognizerUITests" */;
+			buildPhases = (
+				43F4353B2EC3EA3C00273482 /* Sources */,
+				43F4353C2EC3EA3C00273482 /* Frameworks */,
+				43F4353D2EC3EA3C00273482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F435412EC3EA3C00273482 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				43F435422EC3EA3C00273482 /* AR RecognizerUITests */,
+			);
+			name = "AR RecognizerUITests";
+			packageProductDependencies = (
+			);
+			productName = "AR RecognizerUITests";
+			productReference = 43F4353F2EC3EA3C00273482 /* AR RecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F435202EC3EA3800273482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					43F435272EC3EA3800273482 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					43F435342EC3EA3C00273482 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 43F435272EC3EA3800273482;
+					};
+					43F4353E2EC3EA3C00273482 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 43F435272EC3EA3800273482;
+					};
+				};
+			};
+			buildConfigurationList = 43F435232EC3EA3800273482 /* Build configuration list for PBXProject "AR Recognizer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F4351F2EC3EA3800273482;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				436233752EC3ECBC00880100 /* XCLocalSwiftPackageReference "Presentation" */,
+				436233792EC3ED2500880100 /* XCLocalSwiftPackageReference "Data" */,
+				4362337C2EC3ED4700880100 /* XCLocalSwiftPackageReference "Domain" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 43F435292EC3EA3800273482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F435272EC3EA3800273482 /* AR Recognizer */,
+				43F435342EC3EA3C00273482 /* AR RecognizerTests */,
+				43F4353E2EC3EA3C00273482 /* AR RecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F435262EC3EA3800273482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F435332EC3EA3C00273482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4353D2EC3EA3C00273482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F435242EC3EA3800273482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F435312EC3EA3C00273482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4353B2EC3EA3C00273482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F435372EC3EA3C00273482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F435272EC3EA3800273482 /* AR Recognizer */;
+			targetProxy = 43F435362EC3EA3C00273482 /* PBXContainerItemProxy */;
+		};
+		43F435412EC3EA3C00273482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F435272EC3EA3800273482 /* AR Recognizer */;
+			targetProxy = 43F435402EC3EA3C00273482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43F435472EC3EA3C00273482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F435482EC3EA3C00273482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F4354A2EC3EA3C00273482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-Recognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F4354B2EC3EA3C00273482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-Recognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43F4354D2EC3EA3C00273482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-RecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Recognizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AR Recognizer";
+			};
+			name = Debug;
+		};
+		43F4354E2EC3EA3C00273482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-RecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Recognizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AR Recognizer";
+			};
+			name = Release;
+		};
+		43F435502EC3EA3C00273482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-RecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Recognizer";
+			};
+			name = Debug;
+		};
+		43F435512EC3EA3C00273482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUVQ7NR695;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshmac.AR-RecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Recognizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F435232EC3EA3800273482 /* Build configuration list for PBXProject "AR Recognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F435472EC3EA3C00273482 /* Debug */,
+				43F435482EC3EA3C00273482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F435492EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR Recognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4354A2EC3EA3C00273482 /* Debug */,
+				43F4354B2EC3EA3C00273482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F4354C2EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR RecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4354D2EC3EA3C00273482 /* Debug */,
+				43F4354E2EC3EA3C00273482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F4354F2EC3EA3C00273482 /* Build configuration list for PBXNativeTarget "AR RecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F435502EC3EA3C00273482 /* Debug */,
+				43F435512EC3EA3C00273482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		436233752EC3ECBC00880100 /* XCLocalSwiftPackageReference "Presentation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Presentation;
+		};
+		436233792EC3ED2500880100 /* XCLocalSwiftPackageReference "Data" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Data;
+		};
+		4362337C2EC3ED4700880100 /* XCLocalSwiftPackageReference "Domain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Domain;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		436233762EC3ECBC00880100 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+		4362337A2EC3ED2500880100 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		4362337D2EC3ED4700880100 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		43F435622EC3EAF900273482 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+		43F435662EC3EB3C00273482 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		43F435692EC3EB7100273482 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43F435202EC3EA3800273482 /* Project object */;
+}
