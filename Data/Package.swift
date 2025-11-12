@@ -18,18 +18,16 @@ let package = Package(
     ],
     dependencies: [
         // Differentiable Swift - Core differentiation library
-        .package(url: "https://github.com/differentiable-swift/swift-differentiation.git", from: "0.1.0"),
+        .package(url: "https://github.com/differentiable-swift/swift-differentiation.git", from: "1.1.1"),
         // Differentiable Swift Numerics - Numeric operations with differentiation support
-        .package(url: "https://github.com/differentiable-swift/swift-numerics-differentiable.git", from: "0.1.0"),
+        .package(url: "https://github.com/differentiable-swift/swift-numerics-differentiable.git", from: "1.2.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "Data",
             dependencies: [
                 .product(name: "Differentiation", package: "swift-differentiation"),
-                .product(name: "RealModule", package: "swift-numerics-differentiable"),
+                .product(name: "RealModuleDifferentiable", package: "swift-numerics-differentiable"),
             ]
         ),
         .testTarget(
